@@ -9,9 +9,13 @@ $(document).ready(function(){
     var tourist = $("input:radio[name=tourist]:checked").val();
     var food = $("input:radio[name=food]:checked").val();
     
-    if (season === 'summer' && time === 'relax') {
+    if (season === 'summer' && time === 'relax' && tourist === 'option1') {
       $("#mex").show();
-    } else if (season === 'summer' && time === 'explore') {
+     }else if (season === 'summer' && time === 'relax' && tourist === 'option2') {
+      $("#sf").show();
+    } else if (season === 'summer' && time === 'explore' && money === 'option1' && tourist === 'option2') {
+      $('#sf').show();
+    } else if (season === 'summer' && time === 'explore' && money === 'option2' && tourist === 'option1') {
       $('#france').show();
     }else if (season === 'winter' && time === 'relax') {
         $('#null').show();

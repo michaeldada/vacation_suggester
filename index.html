@@ -3,16 +3,16 @@
 <head>
 <title>Vacation Suggester</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/styles.css" type="text/css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 </head>
 <body>
 <div class="container">
-<h1 class="jumbotron">Vacation Suggester</h1>
-<p>Vacation suggester takes the pain out of travel research, and recommends vacations specific to your travel preferences.</p>
+<h1 class="jumbotron">Where Should You Go On Vacation?</h1>
 <form id="userInput">
-<h3>Are you planning your vacation closer to winter or summer months?</h3>
+<h4>Are you planning your vacation closer to winter or summer months?</h4>
 <div class="radio">
 <label>
 <input type="radio" name="season" id="season" value="summer">
@@ -25,7 +25,7 @@ Summer
 Winter
 </label>
 </div>
-<h3>During your ideal vacation, would you be more likely to spend time exploring a city or relaxing on the beach?</h3>
+<h4>During your ideal vacation, would you be more likely to spend time exploring a city or relaxing on the beach?</h4>
 <div class="radio">
 <label>
 <input type="radio" name="time" id="time" value="explore">
@@ -38,7 +38,7 @@ Exploring a city
 Relaxing on the beach
 </label>
 </div>
-<h3>When planning your vacation, are you considering a budget to get the most value out of your trip? Or is money not an object for this trip?</h3>
+<h4>When planning your vacation, are you considering a budget to get the most value out of your trip?<br><br> Or is money not an object for this trip?</h4>
 <div class="radio">
 <label>
 <input type="radio" name="money" id="money" value="option1">
@@ -51,7 +51,7 @@ Following strict budget
 Money is no object
 </label>
 </div>
-<h3>When you travel do you prefer to be an outsider and explore the lives of native people?  Or would you rather travel with a tourist group, surrounded by people like you?</h3>
+<h4>When you travel do you prefer to be an outsider and explore the lives of native people? <br><br> Or would you rather travel with a tourist group, surrounded by people like you?</h4>
 <div class="radio">
 <label>
 <input type="radio" name="tourist" id="tourist" value="option1">
@@ -64,7 +64,7 @@ I like to be the outsider
 I prefer to be with people like me
 </label>
 </div>
-<h3>Do you prefer to have fine dining options when you travel?  Or do you just need food to fuel your exploration?</h3>
+<h4>Do you prefer to have fine dining options when you travel? <br><br> Or do you just need food to fuel your exploration?</h4>
 <div class="radio">
 <label>
 <input type="radio" name="food" id="food" value="option1">
@@ -80,9 +80,9 @@ Just the basics, I need fuel to explore!
 <button class="btn btn-default" type="submit">Submit</button>
 </form>
 </div>
-<div id="mex"><p>mexico</p></div>
-<div id="sf"><p>san francisco</p></div>
-<div id="france">france</div>
-<div id="null">sorry, but it's hard to relax on a beach in winter,try again</div>
+<div class="destination" id="mex"><h3>Congratulations! You're going to Puerto Vallarta, Mexico!</h3><img src="http://www.yucatanvacations.com/YV231blog/wp-content/uploads/2014/01/mexico-vacations.jpg"></img></div>
+<div class="destination" id="sf"><h3>Congratulations! You're going to San Francisco, California!</h3><img src="https://images.trvl-media.com/media/content/shared/images/travelguides/destination/178305/San-Francisco-21315.jpg"></img></div>
+<div class="destination" id="france"><h3>Congratulations! You're going to Paris, France!</h3><img src="http://www.zicasso.com/sites/default/files/styles/original_scaled_down/public/photos/review/1583772/franceparistoureiffeltowersunset.jpg"></img></div>
+<div class="destination" id="null"><h3>sorry, but it's hard to relax on a beach in winter,try again</h3><img src="https://c2.staticflickr.com/2/1428/5404762147_dbb5834359_b.jpg"></img></div>
 </body>
 </html>

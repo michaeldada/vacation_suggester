@@ -1,9 +1,30 @@
+body{
+    background-color: #d9b38c;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+h3{
+    text-align:center;
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    height:auto;
+}
 .jumbotron{
-    text-decoration:underline;
+    background-color:#809fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn{
     font-size:2em;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .destination{
