@@ -12,11 +12,11 @@ $(document).ready(function(){
     
     if (season === 'summer' && time === 'relax' && tourist === 'option1') {
       $("#mex").show();
-     }else if (season === 'summer' && time === 'relax' && tourist === 'option2') {
+    }else if (season === 'summer' && time === 'relax' && tourist === 'option2') {
       $("#sf").show();
-    } else if (season === 'summer' && time === 'explore' && money === 'option1' && tourist === 'option2') {
+    }else if (season === 'summer' && time === 'explore' && money === 'option1' && tourist === 'option2') {
       $('#sf').show();
-    } else if (season === 'summer' && time === 'explore' && money === 'option2' && tourist === 'option1') {
+    }else if (season === 'summer' && time === 'explore' && money === 'option2' && tourist === 'option1') {
       $('#france').show();
     }else if (season === 'winter' && time === 'relax') {
         $('#null').show();

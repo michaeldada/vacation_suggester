@@ -7,6 +7,7 @@ body{
 h3{
     text-align:center;
 }
+
 img{
     display:block;
     margin-left:auto;
@@ -14,6 +15,7 @@ img{
     width:600px;
     height:auto;
 }
+
 .jumbotron{
     background-color:#809fff;
     text-align: center;
