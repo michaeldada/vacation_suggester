@@ -1,26 +1,26 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# _Vacation Suggester_
 
+#### _This site will suggest a destination for your next vacation based on your preferences. 1/15/2016_
 
-Hi there! Welcome to Cloud9 IDE!
+#### By _**Michael Dada**_
 
-To get you started, we included a small hello world application.
+## Setup/Installation Requirements
 
-1) Open the hello-world.html file
+* _Open index.html_
+* _Make your selections for the various questions using the radio tabs_
+* _Press the Submit button_
+* _Profit!_
 
-2) Click on the Preview button to open a live preview pane
+## Support and contact details
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+_You can contact me with any comments or questions at mail.michaeldada@gmail.com_
 
-Happy coding!
-The Cloud9 IDE team
+## Technologies Used
 
+_JavaScript, jQuery, Bootstrap_
 
-## Support & Documentation
+### License
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+*MIT License*
+
+Copyright (c) 2016 **_Michael Dada_**

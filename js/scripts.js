@@ -1,8 +1,9 @@
 $(document).ready(function(){
     $("#mex, #sf, #france, #null").hide();
+    
     $("#userInput").submit(function(event) {
     $("#mex, #sf, #france, #null").hide();
-
+   
     var season = $("input:radio[name=season]:checked" ).val();
     var time = $("input:radio[name=time]:checked").val();
     var money = $("input:radio[name=money]:checked").val();
