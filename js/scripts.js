@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("#mex, #sf, #france, #null").hide();
     $("#userInput").submit(function(event) {
     $("#mex, #sf, #france, #null").hide();
 
@@ -12,16 +13,12 @@ $(document).ready(function(){
       $("#mex").show();
     } else if (season === 'summer' && time === 'explore') {
       $('#france').show();
-    }else if (season === 'winter' && time === 'explore') {
-        $('#sf').show();
     }else if (season === 'winter' && time === 'relax') {
         $('#null').show();
     }else if (money === 'option1' && time === 'relax') {
         $('#sf').show();
     }else if (money === 'option2' && time === 'relax') {
         $('#mex').show();
-    }else if (money === 'option1' && time === 'explore') {
-        $('#sf').show();
     }else if (money === 'option2' && time === 'explore') {
         $('#france').show();
     }else if (tourist === 'option1' && time === 'explore') {
@@ -34,8 +31,12 @@ $(document).ready(function(){
         $('#mex').show();
     }else if (food === 'option2' && time === 'explore' && money === 'option2'){
         $('#france').show();
-    }else if (food === 'option2' && time === 'explore' && money === 'option1'){
+    }else if (season === 'winter' && time === 'explore' && money === 'option2'){
+        $('#france').show();
+    }else if (season === 'winter' && time === 'explore' && money === 'option1' && tourist === 'option2' && food === 'option1'){
         $('#sf').show();
+    }else if (season === 'winter' && time === 'explore' && money === 'option1' && tourist === 'option1' && food === 'option1'){
+        $('#france').show();
     }
     
   event.preventDefault();

@@ -5,3 +5,7 @@
 .btn{
     font-size:2em;
 }
+
+.destination{
+    display:none;
+}
